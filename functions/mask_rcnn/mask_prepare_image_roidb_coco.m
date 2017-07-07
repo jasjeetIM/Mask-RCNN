@@ -134,7 +134,7 @@ function [bbox_targets, mask_targets, is_valid] = compute_targets(conf, coco, cl
         else 
           img_id = str2num(image_id(end-16:end-5)); 
         end 
-        ann_ids = coco.getAnnIds('imgIds', img_id)
+        ann_ids = coco.getAnnIds('imgIds', img_id); 
         anns = coco.loadAnns(ann_ids); 
         img = coco.loadImgs( img_id ); 
         max_h = img.height; 

@@ -1,0 +1,13 @@
+net: "models/rpn_prototxts/resnet_50layers_conv/train_val.prototxt"
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 60000
+display: 100
+max_iter: 80000
+momentum: 0.9
+weight_decay: 0.0005
+# We disable standard caffe solver snapshotting and implement our own snapshot
+snapshot: 0
+#debug_info: true
+

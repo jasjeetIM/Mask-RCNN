@@ -1,0 +1,14 @@
+net: "models/mask_rcnn_prototxts/resnet_50layers_conv/train_val.prototxt"
+base_lr: 0.0002
+lr_policy: "step"
+gamma: 0.1
+stepsize: 30000
+display: 1 
+max_iter: 40000
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 0
+#snapshot: 500
+#solver_mode: GPU
+clip_gradients: 100
+debug_info: true

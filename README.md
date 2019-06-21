@@ -10,3 +10,6 @@ This is a adaptation of Faster-RCNN : https://github.com/ShaoqingRen/faster_rcnn
 
 **TO DO**
  - Train models 
+ 
+ **UPDATE**
+ Unfortunately, I do not have the time to complete the code for this project. However, the authors have released a complete implementation of Mask-RCNN here: https://github.com/facebookresearch/maskrcnn-benchmark/tree/master/maskrcnn_benchmark. 
